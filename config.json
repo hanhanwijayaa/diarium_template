@@ -1,0 +1,40 @@
+{
+  "module": "module",
+  "states": [
+    {
+      "state": "OnLoading",
+      "variables": null
+    },
+    {
+      "state": "OnError",
+      "variables": [
+        {
+          "name": "errorCode",
+          "type": "String"
+        },
+        {
+          "name": "errorType",
+          "type": "String"
+        },
+        {
+          "name": "errorMessage",
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "state": "OnSuccess",
+      "variables": [
+        {
+          "name": "data",
+          "type": "ModuleModel"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "GetModule"
+    }
+  ]
+}

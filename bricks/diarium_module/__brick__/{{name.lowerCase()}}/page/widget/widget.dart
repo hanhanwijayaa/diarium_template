@@ -1,0 +1,1 @@
+export '{{name.lowerCase()}}_widget.dart';
