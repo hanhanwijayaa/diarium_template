@@ -1,4 +1,4 @@
-export 'page/{{name.lowerCase()}}_page.dart';
-export 'model/{{name.lowerCase()}}_model.dart';
-export 'dto/{{name.lowerCase()}}_dto.dart';
-export 'service/{{name.lowerCase()}}_service.dart';
+export 'page/page.dart';
+export 'model/model.dart';
+export 'dto/dto.dart';
+export 'service/service.dart';

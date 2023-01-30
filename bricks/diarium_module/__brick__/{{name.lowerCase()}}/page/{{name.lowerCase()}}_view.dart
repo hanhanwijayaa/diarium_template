@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../lib.dart';
+import '../cubit/{{name.lowerCase()}}_cubit.dart';
+import '../{{name.lowerCase()}}.dart';
 
 class {{name.pascalCase()}}View extends StatefulWidget {
   {{name.pascalCase()}}View({Key? key}) : super(key: key);
@@ -18,7 +21,7 @@ class _{{name.pascalCase()}}ViewState extends State<{{name.pascalCase()}}View> {
           title: "{{name.pascalCase()}}",
           onPressed: () {},
         ),
-        body: BlocConsumer<{{name.pascalCase()}}Bloc, {{name.pascalCase()}}State>(
+        body: BlocConsumer<{{name.pascalCase()}}Cubit, {{name.pascalCase()}}State>(
           listener: (c, s) {
             if (s is OnSuccessGet{{name.pascalCase()}}) {
             } else if (s is OnErrorGet{{name.pascalCase()}}) {
@@ -26,12 +29,12 @@ class _{{name.pascalCase()}}ViewState extends State<{{name.pascalCase()}}View> {
                   c: c,
                   s: s,
                   callBack: () {
-                    c.read<{{name.pascalCase()}}Bloc>().get{{name.pascalCase()}}();
+                    c.read<{{name.pascalCase()}}Cubit>().get{{name.pascalCase()}}();
                   });
             }
           },
           builder: (c, s) {
-            return {{name.pascalCase()}}Widget;
+            return {{name.pascalCase()}}Widget();
           },
         ),
       ),

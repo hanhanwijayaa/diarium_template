@@ -1,5 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
+import '../../../lib.dart';
+import '../model/model.dart';
+import '../service/service.dart';
+
 
 part '{{name.lowerCase()}}_state.dart';
 

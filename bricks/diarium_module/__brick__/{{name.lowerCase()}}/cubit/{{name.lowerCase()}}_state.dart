@@ -9,10 +9,10 @@ class OnLoadingGet{{name.pascalCase()}} extends {{name.pascalCase()}}State {}
 
 class OnErrorGet{{name.pascalCase()}} extends {{name.pascalCase()}}State {
   final int? errorCode;
-  final int? errorType;
+  final String? errorType;
   final String? errorMessage;
 
-  OnLoadingGet{{name.pascalCase()}}({this.errorCode, this.errorType, this.errorMessage});
+  OnErrorGet{{name.pascalCase()}}({this.errorCode, this.errorType, this.errorMessage});
 }
 
 class OnSuccessGet{{name.pascalCase()}} extends {{name.pascalCase()}}State {

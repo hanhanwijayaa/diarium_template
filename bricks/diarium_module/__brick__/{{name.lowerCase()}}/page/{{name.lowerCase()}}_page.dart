@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../lib.dart';
+import '../cubit/{{name.lowerCase()}}_cubit.dart';
+import '../{{name.lowerCase()}}.dart';
 
 class {{name.pascalCase()}}Page extends StatelessWidget {
   {{name.pascalCase()}}Page({Key? key}) : super(key: key);
@@ -8,7 +11,7 @@ class {{name.pascalCase()}}Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider<{{name.pascalCase()}}Bloc>(create: (context) => {{name.pascalCase()}}Bloc().get{{name.pascalCase()}}()),
+        BlocProvider<{{name.pascalCase()}}Cubit>(create: (context) => {{name.pascalCase()}}Cubit()..get{{name.pascalCase()}}()),
       ],
       child: {{name.pascalCase()}}View(),
     );
