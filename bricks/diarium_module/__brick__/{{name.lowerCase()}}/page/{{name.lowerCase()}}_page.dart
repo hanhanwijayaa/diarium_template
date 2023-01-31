@@ -11,7 +11,7 @@ class {{name.pascalCase()}}Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider<{{name.pascalCase()}}Cubit>(create: (context) => {{name.pascalCase()}}Cubit()..get{{name.pascalCase()}}()),
+        BlocProvider<{{name.pascalCase()}}Cubit>(create: (context) => {{name.pascalCase()}}Cubit()),
       ],
       child: {{name.pascalCase()}}View(),
     );

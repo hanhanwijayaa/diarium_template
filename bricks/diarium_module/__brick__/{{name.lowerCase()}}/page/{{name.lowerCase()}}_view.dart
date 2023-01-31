@@ -19,7 +19,9 @@ class _{{name.pascalCase()}}ViewState extends State<{{name.pascalCase()}}View> {
       child: Scaffold(
         appBar: AppBarWidget(
           title: "{{name.pascalCase()}}",
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
         ),
         body: BlocConsumer<{{name.pascalCase()}}Cubit, {{name.pascalCase()}}State>(
           listener: (c, s) {
