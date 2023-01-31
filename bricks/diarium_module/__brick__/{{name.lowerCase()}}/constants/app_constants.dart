@@ -1,1 +1,1 @@
-const variable{{name.pascalCase()}}  : "variable{{name.pascalCase()}}";
+const variable{{name.pascalCase()}} = "variable{{name.pascalCase()}}";
