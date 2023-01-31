@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import '../../../lib.dart';
+import 'package:diarium/lib.dart';
 
 class {{name.pascalCase()}}Service {
   final Dio _dio = new Dio();
