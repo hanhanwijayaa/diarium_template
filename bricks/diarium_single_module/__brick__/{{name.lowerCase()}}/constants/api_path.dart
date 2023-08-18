@@ -1,0 +1,1 @@
+const api{{name.pascalCase()}} = "api{{name.pascalCase()}}";

@@ -24,5 +24,5 @@ vars:
   name:
     type: string
     description: Diarium Standard
-    default: "exp : dashboard_list"
-    prompt: Inject Module Name [lower case only]?
+    default: "exp : menu"
+    prompt: Inject Multiple Module Name [lower case only]?
