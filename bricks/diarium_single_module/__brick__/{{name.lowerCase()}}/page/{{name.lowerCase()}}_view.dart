@@ -8,7 +8,7 @@ class {{name.pascalCase()}}View extends StatefulWidget {
   {{name.pascalCase()}}View({Key? key}) : super(key: key);
 
   @override
-  _{{name.pascalCase()}}ViewState crea{{name.pascalCase()}}ate() => _{{name.pascalCase()}}ViewState();
+  _{{name.pascalCase()}}ViewState createState() => _{{name.pascalCase()}}ViewState();
 }
 
 class _{{name.pascalCase()}}ViewState extends State<{{name.pascalCase()}}View> {
