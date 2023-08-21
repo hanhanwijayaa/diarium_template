@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:diarium/lib.dart';
 import '../cubit/{{name.lowerCase()}}_cubit.dart';
+import '../cubit/{{name.lowerCase()}}2_cubit.dart';
 import '../{{name.lowerCase()}}.dart';
 
 class {{name.pascalCase()}}View extends StatefulWidget {
   {{name.pascalCase()}}View({Key? key}) : super(key: key);
 
   @override
-  _{{name.pascalCase()}}ViewState crea{{name.pascalCase()}}ate() => _{{name.pascalCase()}}ViewState();
+  _{{name.pascalCase()}}ViewState createState() => _{{name.pascalCase()}}ViewState();
 }
 
 class _{{name.pascalCase()}}ViewState extends State<{{name.pascalCase()}}View> {

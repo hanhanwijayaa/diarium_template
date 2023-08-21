@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:diarium/lib.dart';
 import '../cubit/{{name.lowerCase()}}_cubit.dart';
+import '../cubit/{{name.lowerCase()}}2_cubit.dart';
 import '../{{name.lowerCase()}}.dart';
 
 class {{name.pascalCase()}}Page extends StatelessWidget {
