@@ -1,1 +1,6 @@
-{"diarium_module":"/Users/Swamedia/Documents/MobileDev/mason/bricks/diarium_module","hello":"/Users/Swamedia/.mason-cache/hosted/registry.brickhub.dev/hello_0.1.0+1"}
+{
+  "diarium_module": "/Users/Swamedia/Documents/MobileDev/mason/bricks/diarium_module",
+  "diarium_single_module": "/Users/Swamedia/Documents/MobileDev/mason/bricks/diarium_single_module",
+  "diarium_multiple_module": "/Users/Swamedia/Documents/MobileDev/mason/bricks/diarium_multiple_module",
+  "hello": "/Users/Swamedia/.mason-cache/hosted/registry.brickhub.dev/hello_0.1.0+1"
+}
